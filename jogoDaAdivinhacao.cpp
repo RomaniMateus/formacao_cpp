@@ -68,6 +68,7 @@ int main()
     }
 
     cout << "Fim de jogo!" << endl;
+    
     if(nao_acertou){
         cout << "Você perdeu! Tente novamente!" << endl;
     }
