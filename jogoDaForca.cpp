@@ -1,3 +1,4 @@
+#include <locale>
 #include <iostream>
 #include <string>
 #include <map>
@@ -14,7 +15,7 @@ vector<char> chutes_errados;
 bool letraExiste( char);
 bool naoAcertou();
 bool naoEnforcou();
-void imprimecabecalho();
+void imprimeCabecalho();
 void imprimeErros();
 void imprimePalavra();
 void chuta();
@@ -25,6 +26,8 @@ void adicionaPalavra();
 
 int main () 
 {
+    setlocale(LC_ALL, "");
+
     imprimeCabecalho();
 
     leArquivo();
