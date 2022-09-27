@@ -178,6 +178,7 @@ vector<string> leArquivo()
     }
     else
     {
+        
         cout << "Não foi possível acessar o banco de palavras." << endl;
         exit(0);
     }
